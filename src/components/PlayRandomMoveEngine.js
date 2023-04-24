@@ -14,6 +14,7 @@ export default function PlayRandomMoveEngine() {
 
   function makeRandomMove() {
     const possibleMoves = game.moves();
+    console.log(possibleMoves);
     if (game.game_over() || game.in_draw() || possibleMoves.length === 0)
       return; // exit if the game is over
     const randomIndex = Math.floor(Math.random() * possibleMoves.length);

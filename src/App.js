@@ -9,9 +9,9 @@ function App() {
       <div className="app">
         <PlayRandomMoveEngine />
       </div>
-      <div className="app">
+      {/* <div className="app">
         <PlayAdvancedMoveEngine />
-      </div>
+      </div> */}
     </>
   );
 }
